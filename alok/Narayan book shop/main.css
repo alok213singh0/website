@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo h2{
+   
+    color:white;
+    padding:20px;
+    text-decoration: none;
+
+
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.navbar{
+    background-color: black;
+    position: relative;
+  
+
+}
+.content {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+  
+}
+.content a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 30px;
+  
+}
+.content a:hover{
+    color:rgb(47, 255, 92);
+  
+}
+body{
+  
+    background-image: url(particle_background-24c33d8299e223ef4a14dd998f7f1256.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 1450px;
+}
+form{
+    height: 550px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid black;
+    position:absolute;
+    top: 245px;
+    left:80px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+form h2{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+form input{
+    width:250px;
+    padding:10px;
+    border-radius: 50px;
+    margin:15px;
+}
+form input[type="submit"]{
+    background:linear-gradient(to right, rgba(207, 0, 248, 0.836),rgba(12, 12, 245, 0.795)) ;
+    margin-top: 20px;
+
+}
+
+.avtar img{
+    width: 850px;
+   
+
+}
+.avtar{
+    display: flex;
+    justify-content: right;
+}
+.content .log{
+    background:linear-gradient(to right, rgba(207, 0, 248, 0.836),rgba(49, 49, 236, 0.795)) ;
+    padding: 5px;
+    border-radius: 50px;
+   
+    
+}
+.content .sign{
+    background:linear-gradient(to right, rgba(207, 0, 248, 0.836),rgba(49, 49, 236, 0.795)) ;
+    border-radius: 50px;
+    margin:0 20px;
+    padding: 5px;
+}
+
+
